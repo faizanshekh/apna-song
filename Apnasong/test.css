@@ -1,0 +1,102 @@
+
+body{
+    background: #061649 !important;
+
+}
+body, h1 span {
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+.navbar .nav-item {
+    margin-left: 45px;
+    line-height: 26px;
+}
+.btns {
+    background: #4039d4 !important;
+    color: #ffffff;
+ 
+        font-size: 16px;
+        line-height: 50px;
+        padding: 0 40px;
+        border-radius: 30px;
+        border: none;
+        letter-spacing: 1px;
+        -webkit-transition: all .5s;
+        transition: all .5s;
+        cursor: pointer;
+
+}
+.navbar-nav .btn.btn-primary {
+    line-height: 40px;
+}
+.navbar {
+    height: 90px;
+    transition: all .5s;
+    z-index: 999999;
+}
+.px-0 {
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-toggler {
+    border: none;
+    outline: none !important;
+    cursor: pointer;
+    margin: 6px;
+    padding: 0;
+}
+.navbar-toggler span.toggler-icon {
+    width: 22px;
+    height: 3px;
+    display: block;
+    background: #fff;
+    margin: 4px 0;
+}
+.navbar button .toggler-icon {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.navbar .nav-item .nav-link {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    position: relative;
+}
+.navbar .nav-item .nav-link {
+    color: #fff;
+}
+.navbar .nav-item .nav-link {
+    padding: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.navbar .nav-item .nav-link::before {
+    content: " ";
+    position: absolute;
+    left: -1.8rem;
+    top: 1.2rem;
+    width: .8rem;
+    height: .8rem;
+    display: block;
+    background-color: #4FD3D3;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    transition: all .3s;
+}
